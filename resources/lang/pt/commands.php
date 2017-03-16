@@ -2,15 +2,15 @@
 
 return [
 
-    'label'                => 'Commands',
-    'deploy_webhook'       => 'Deployments may be triggered by using the following webhook URL',
-    'webhook_help'         => 'Webhook Help',
-    'webhook_example'      => 'By making an HTTP POST request to this URL you will trigger a new deployment of ' .
-                              'the latest commit.',
-    'webhook_fields'       => 'Optional POST fields',
-    'webhook_reason'       => 'The reason the deployment is being run',
-    'webhook_source'       => 'A name to use to indicate who/what triggered the deployment, for instance "CI server"',
-    'webhook_branch'       => 'The branch to deploy, if blank it defaults to the branch configured in the project',
+    'label'                => 'Comandos',
+    'deploy_webhook'       => 'Deployments podem ser iniciados usando a seguinte URL de webhook',
+    'webhook_help'         => 'Ajuda sobre Webhook',
+    'webhook_example'      => 'Ao fazer um POST request para esta URL, você vai iniciar um novo deployment do ' .
+                              'último commit.',
+    'webhook_fields'       => 'Campos POST opcionais',
+    'webhook_reason'       => 'O motivo pelo qual o deployment está sendo executado',
+    'webhook_source'       => 'Um nome para usar para indicar quem/o quê iniciou o deployment, por exemplo: "Servidor de Integração Contínua"',
+    'webhook_branch'       => 'A branch para qual realizar o deployment, se vazio, será a utilizada o padrão configurado no projeto',
     'webhook_update'       => 'Whether a deployment should only run if the currently deployed branch matches to ' .
                               'branch to be deployed, defaults to false',
     'webhook_url'          => 'A URL to link the name to, for example the build details on your CI server',
