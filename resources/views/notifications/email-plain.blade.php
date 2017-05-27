@@ -3,7 +3,7 @@
 if (!empty($greeting)) {
     echo $greeting;
 } else {
-    echo $level == 'error' ? trans('emails.whoops') : trans('emails.welcome', ['name' => $name]);
+    echo $level === 'error' ? trans('emails.whoops') : trans('emails.welcome', ['name' => $name]);
 }
 
 echo "\n\n";
